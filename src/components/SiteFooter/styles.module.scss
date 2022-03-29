@@ -1,0 +1,16 @@
+@use 'settings';
+
+.footer {
+  padding: 10px 0;
+  background-color: settings.primaryDepth(1);
+  font-family: settings.$main-font;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.copyright {
+  // line-height: 1.5;
+}
